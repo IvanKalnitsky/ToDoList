@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1144CB0C7AA5470FD16EF41A /* Pods_ToDoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B412FB96357FE0C91E1C027E /* Pods_ToDoFire.framework */; };
+		82E1FEC92606716A001D4E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1FEC82606716A001D4E9E /* AppDelegate.swift */; };
+		82E1FECB2606716A001D4E9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1FECA2606716A001D4E9E /* SceneDelegate.swift */; };
+		82E1FECD2606716A001D4E9E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1FECC2606716A001D4E9E /* LoginViewController.swift */; };
+		82E1FED02606716A001D4E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E1FECE2606716A001D4E9E /* Main.storyboard */; };
+		82E1FED22606716D001D4E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E1FED12606716D001D4E9E /* Assets.xcassets */; };
+		82E1FED52606716D001D4E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E1FED32606716D001D4E9E /* LaunchScreen.storyboard */; };
+		82E1FEE1260681FA001D4E9E /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1FEE0260681FA001D4E9E /* TasksViewController.swift */; };
+		82E1FEE5260734D4001D4E9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82E1FEE4260734D4001D4E9E /* GoogleService-Info.plist */; };
+		82E1FEF926089C75001D4E9E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1FEF826089C75001D4E9E /* Task.swift */; };
+		82E1FEFC26089C83001D4E9E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1FEFB26089C83001D4E9E /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B443CC66390B3C62971D8C3 /* Pods-ToDoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoFire.release.xcconfig"; path = "Target Support Files/Pods-ToDoFire/Pods-ToDoFire.release.xcconfig"; sourceTree = "<group>"; };
+		82E1FEC52606716A001D4E9E /* ToDoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E1FEC82606716A001D4E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82E1FECA2606716A001D4E9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82E1FECC2606716A001D4E9E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		82E1FECF2606716A001D4E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82E1FED12606716D001D4E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E1FED42606716D001D4E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82E1FED62606716D001D4E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E1FEE0260681FA001D4E9E /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		82E1FEE4260734D4001D4E9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		82E1FEF826089C75001D4E9E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		82E1FEFB26089C83001D4E9E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B412FB96357FE0C91E1C027E /* Pods_ToDoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0763D5CFD59CF008DDE2E87 /* Pods-ToDoFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoFire.debug.xcconfig"; path = "Target Support Files/Pods-ToDoFire/Pods-ToDoFire.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E1FEC22606716A001D4E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1144CB0C7AA5470FD16EF41A /* Pods_ToDoFire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10561BDA7AC6B3C151524326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B412FB96357FE0C91E1C027E /* Pods_ToDoFire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E1FEBC2606716A001D4E9E = {
+			isa = PBXGroup;
+			children = (
+				82E1FEC72606716A001D4E9E /* ToDoFire */,
+				82E1FEC62606716A001D4E9E /* Products */,
+				C17D9F33ADF0813BDA25F72D /* Pods */,
+				10561BDA7AC6B3C151524326 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82E1FEC62606716A001D4E9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E1FEC52606716A001D4E9E /* ToDoFire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E1FEC72606716A001D4E9E /* ToDoFire */ = {
+			isa = PBXGroup;
+			children = (
+				82E1FEFF26089CA0001D4E9E /* Controllers */,
+				82E1FEFE26089C89001D4E9E /* Model */,
+				82E1FECE2606716A001D4E9E /* Main.storyboard */,
+				82E1FEDE260681D4001D4E9E /* Suppoting Files */,
+				82E1FED62606716D001D4E9E /* Info.plist */,
+			);
+			path = ToDoFire;
+			sourceTree = "<group>";
+		};
+		82E1FEDE260681D4001D4E9E /* Suppoting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82E1FEC82606716A001D4E9E /* AppDelegate.swift */,
+				82E1FECA2606716A001D4E9E /* SceneDelegate.swift */,
+				82E1FED12606716D001D4E9E /* Assets.xcassets */,
+				82E1FED32606716D001D4E9E /* LaunchScreen.storyboard */,
+				82E1FEE4260734D4001D4E9E /* GoogleService-Info.plist */,
+			);
+			path = "Suppoting Files";
+			sourceTree = "<group>";
+		};
+		82E1FEFE26089C89001D4E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82E1FEF826089C75001D4E9E /* Task.swift */,
+				82E1FEFB26089C83001D4E9E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82E1FEFF26089CA0001D4E9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82E1FECC2606716A001D4E9E /* LoginViewController.swift */,
+				82E1FEE0260681FA001D4E9E /* TasksViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C17D9F33ADF0813BDA25F72D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0763D5CFD59CF008DDE2E87 /* Pods-ToDoFire.debug.xcconfig */,
+				6B443CC66390B3C62971D8C3 /* Pods-ToDoFire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E1FEC42606716A001D4E9E /* ToDoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E1FED92606716D001D4E9E /* Build configuration list for PBXNativeTarget "ToDoFire" */;
+			buildPhases = (
+				E858BC44729ED03268CE4ED4 /* [CP] Check Pods Manifest.lock */,
+				82E1FEC12606716A001D4E9E /* Sources */,
+				82E1FEC22606716A001D4E9E /* Frameworks */,
+				82E1FEC32606716A001D4E9E /* Resources */,
+				83A4063414491ABECED5E80C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoFire;
+			productName = ToDoFire;
+			productReference = 82E1FEC52606716A001D4E9E /* ToDoFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E1FEBD2606716A001D4E9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					82E1FEC42606716A001D4E9E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 82E1FEC02606716A001D4E9E /* Build configuration list for PBXProject "ToDoFire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82E1FEBC2606716A001D4E9E;
+			productRefGroup = 82E1FEC62606716A001D4E9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E1FEC42606716A001D4E9E /* ToDoFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E1FEC32606716A001D4E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E1FED52606716D001D4E9E /* LaunchScreen.storyboard in Resources */,
+				82E1FEE5260734D4001D4E9E /* GoogleService-Info.plist in Resources */,
+				82E1FED22606716D001D4E9E /* Assets.xcassets in Resources */,
+				82E1FED02606716A001D4E9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83A4063414491ABECED5E80C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoFire/Pods-ToDoFire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoFire/Pods-ToDoFire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoFire/Pods-ToDoFire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E858BC44729ED03268CE4ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoFire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E1FEC12606716A001D4E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E1FECD2606716A001D4E9E /* LoginViewController.swift in Sources */,
+				82E1FEE1260681FA001D4E9E /* TasksViewController.swift in Sources */,
+				82E1FEFC26089C83001D4E9E /* User.swift in Sources */,
+				82E1FEF926089C75001D4E9E /* Task.swift in Sources */,
+				82E1FEC92606716A001D4E9E /* AppDelegate.swift in Sources */,
+				82E1FECB2606716A001D4E9E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82E1FECE2606716A001D4E9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E1FECF2606716A001D4E9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82E1FED32606716D001D4E9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E1FED42606716D001D4E9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82E1FED72606716D001D4E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82E1FED82606716D001D4E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82E1FEDA2606716D001D4E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0763D5CFD59CF008DDE2E87 /* Pods-ToDoFire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5C93MBV7Q;
+				INFOPLIST_FILE = ToDoFire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.ToDoFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82E1FEDB2606716D001D4E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B443CC66390B3C62971D8C3 /* Pods-ToDoFire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5C93MBV7Q;
+				INFOPLIST_FILE = ToDoFire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.ToDoFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E1FEC02606716A001D4E9E /* Build configuration list for PBXProject "ToDoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E1FED72606716D001D4E9E /* Debug */,
+				82E1FED82606716D001D4E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E1FED92606716D001D4E9E /* Build configuration list for PBXNativeTarget "ToDoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E1FEDA2606716D001D4E9E /* Debug */,
+				82E1FEDB2606716D001D4E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82E1FEBD2606716A001D4E9E /* Project object */;
+}
